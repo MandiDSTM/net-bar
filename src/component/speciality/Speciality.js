@@ -7,7 +7,7 @@ const Speciality = () => {
             <div className="cards">
                 <div className="card">
                     <div className="card-img">
-                        <div className="img-first"></div>
+                        <div className="img-one"></div>
                     </div>
                     <h4>آنلاین و بدون دردسر</h4>
                     <p>با استفاده از سامانه نوبت دهی میتوانید بدون مراجعه حضوری و به صورت آنلاین نوبت خود را دریافت کنید.</p>

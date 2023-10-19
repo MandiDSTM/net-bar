@@ -1,0 +1,74 @@
+.speciality {
+    width: 100%;
+    height: 65vh;
+    background-color: #F3F9FC;
+    padding: 50px;
+}
+
+.speciality h3{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.cards{
+    padding: 20px 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-img {
+    width: 220px;
+    height: 200px;
+    position: relative;
+}
+
+.card-img .img-first {
+    width: 100%;
+    height: 100%;
+    background: url("../assets/coffee-break.5e55f97b.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-img .img-two {
+    width: 100%;
+    height: 100%;
+    background: url("../assets/simple.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-img .img-three {
+    width: 280px;
+    height: 100%;
+    background: url("../assets/speedy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+}
+
+.card h4{
+    margin: 20px 0 10px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.card p {
+    padding: 5px 80px;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 400;
+}

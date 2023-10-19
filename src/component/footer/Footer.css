@@ -1,0 +1,87 @@
+.footer-container {
+    background-color: #F3F9FC;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 50px;
+}
+
+
+.footer-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.address-item{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.logo-holder-address{
+    width: 25px;
+    height: 25px;
+}
+
+.logo-address-1{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/location.d0314ace.svg');
+    background-size: cover;
+}
+
+.logo-address-2{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/call.c9e9c8ed.svg');
+    background-size: cover;
+}
+
+.logo-address-3{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/sms.11a7b81e.svg');
+    background-size: cover;
+}
+
+.social-logo-container{
+    display: flex;
+    gap: 20px;
+}
+
+.social-logo-holder{
+    width: 50px;
+    height: 50px;
+}
+
+.social-logo-1{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/telegram.85fc204c.svg');
+    background-size: cover;
+    object-fit: cover;
+}
+
+.social-logo-2{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/instagram.93b06ee3.svg');
+    background-size: cover;
+}
+
+.social-logo-3{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/linkedin.f6545d18.svg');
+    background-size: cover;
+}
+
+.footer-end{
+    background-color: #D8EDF7;
+    width: 100%;
+    height: 70px;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

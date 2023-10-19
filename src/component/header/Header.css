@@ -1,0 +1,77 @@
+.container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.description-holder {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 10px;
+}
+
+.description h4{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.description h3{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.description p{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.header-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    padding: 8px 22px;
+    font: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #1976d2;
+    color: white;
+}
+
+button.estelam{
+    background-color: #E18801;
+}
+
+.img-holder{
+    height: 70%;
+    width: 90%;
+}
+
+.img-header{
+    height: 100%;
+    max-width: 90%;
+    background: url('../assets/banner.45b48562.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

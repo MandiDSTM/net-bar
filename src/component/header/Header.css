@@ -19,22 +19,22 @@
     gap: 10px;
 }
 
-.description h4{
+.description h4 {
     font-weight: 900;
     font-size: 25px;
 }
 
-.description h3{
+.description h3 {
     font-weight: 900;
     font-size: 30px;
 }
 
-.description p{
+.description p {
     font-weight: 400;
     font-size: 17px;
 }
 
-.header-img{
+.header-img {
     width: 50%;
     height: 100%;
     display: flex;
@@ -48,7 +48,7 @@
     gap: 10px;
 }
 
-button{
+button {
     padding: 8px 22px;
     font: inherit;
     border-radius: 5px;
@@ -56,18 +56,27 @@ button{
     border: none;
     background-color: #1976d2;
     color: white;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s
 }
 
-button.estelam{
+button:hover {
+    background-color: #12589e;
+}
+
+button.estelam {
     background-color: #E18801;
 }
 
-.img-holder{
+button.estelam:hover {
+    background-color: #af6a02;
+}
+
+.img-holder {
     height: 70%;
     width: 90%;
 }
 
-.img-header{
+.img-header {
     height: 100%;
     max-width: 90%;
     background: url('../assets/banner.45b48562.png');
